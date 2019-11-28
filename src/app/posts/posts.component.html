@@ -1,0 +1,23 @@
+<nb-layout-header class="header">
+  <h5>Welcome to User's Post page !</h5></nb-layout-header
+>
+<div *ngIf="posts">
+  <table class="table">
+    <thead style="background-color:rgb(103, 126, 112)">
+      <tr>
+        <th scope="col">Post Id</th>
+        <th scope="col">user Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{ posts.id }}</th>
+        <td>{{ posts.userId }}</td>
+        <td>{{ posts.title }}</td>
+        <td>{{ posts.body }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

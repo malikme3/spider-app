@@ -1,0 +1,19 @@
+<nb-layout windowMode>
+  <nb-layout-header fixed>
+    <h1 align="center" class="title text-center">Spiders's Real App</h1>
+  </nb-layout-header>
+
+  <nb-sidebar class="menu-sidebar" tag="menu-sidebar" start state="compacted">
+    <nb-menu [items]="menu"></nb-menu>
+  </nb-sidebar>
+
+  <nb-layout-column>
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    <strong style="color: darkgreen">
+      Good software developer, like <i style="color: blue"> diamond</i>, takes time !
+    </strong>
+  </nb-layout-footer>
+</nb-layout>

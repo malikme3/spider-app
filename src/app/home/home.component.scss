@@ -1,0 +1,24 @@
+.image-box {
+  /* Here's the trick */
+  background: linear-gradient(#0029ff, rgba(36, 19, 19, 0.5)),
+    var(--image-url) center center;
+
+  /* Here's the same styles we applied to our content-div earlier */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 40px;
+  color: whitesmoke;
+  align-content: center;
+}
+
+.header {
+  background-color: rgb(27, 56, 151);
+  color: white;
+  align-content: center;
+}
