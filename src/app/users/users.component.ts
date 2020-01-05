@@ -13,7 +13,7 @@ export class UsersComponent {
   // 2- update user value with httpClient response data
   constructor(private http: HttpClient) {
     http
-      .get('https://jsonplaceholder.typicode.com/users/4')
+      .get('localhost:3000/heloo')
       .subscribe(response => {
         this.user = response;
       });
